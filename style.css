@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Be Vietnam Pro', sans-serif;
+    scroll-behavior: smooth;
 }
 
 #wrapper{
@@ -14,7 +15,7 @@
 }
 
 .container{
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -35,7 +36,7 @@
     font-size: 1.25rem;
     font-weight: 500;
     cursor: pointer;
-    transition: all 5s;
+    transition: 0.8s;
 }
 
 .nav-items div a{
@@ -44,6 +45,5 @@
 }
 
 .nav-items div:hover{
-    
     font-weight: bold;
 }
