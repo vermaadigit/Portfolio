@@ -9,3 +9,27 @@
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.nav-items{
+    display: flex;  
+    gap: 3rem;
+    padding: 0 4em;
+}
+
+.nav-items div{
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+}
