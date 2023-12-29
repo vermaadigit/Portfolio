@@ -56,3 +56,10 @@
     font-weight: bold;
 }
 
+.hero-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
