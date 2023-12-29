@@ -100,3 +100,9 @@
     font-size: 45px;
     line-height: 45px;
 }
+
+.hero-section-description{
+    margin: 1rem;
+    width: 70%;
+    font-weight: 500;
+}
