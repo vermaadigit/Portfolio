@@ -164,7 +164,7 @@
     transition: all 1s;
     animation: scaleImage 5s linear infinite;
     height: 500px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 .user-image img{
