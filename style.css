@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
 }
 
+:root{
+    --bgOrange: #e84949;
+}
+
 #wrapper{
     height: 100vh;
     overflow-y: auto;
@@ -24,6 +28,10 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
+}
+
+.logo{
+    width: 150px;
 }
 
 .nav-items{
@@ -48,8 +56,3 @@
     font-weight: bold;
 }
 
-/* about 25 min */
-
-/* baad me dekh lenge sorry for that day */
-
-/* only for github streak and push */
