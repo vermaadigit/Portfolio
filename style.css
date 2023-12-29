@@ -279,3 +279,10 @@
     animation: shakeEffectPlus 5s ease-in infinite;
 }
 
+@keyframes shakeEffectPlus {
+    
+    50%{
+        top: 3%;
+        left: 48%;
+    }
+}
