@@ -148,3 +148,45 @@
 #btn-bottom{
     display: none;
 }
+
+.hero-section-right{
+    position: relative;
+
+}
+
+.absolute{
+    position: absolute;
+}
+
+.user-image{
+    padding: 2.5rem;
+    filter: grayscale(1);
+    transition: all 1s;
+    animation: scaleImage 5s linear infinite;
+    height: 500px;
+    margin-right: 50px;
+}
+
+.user-image img{
+    z-index: -9;
+    height: 400px;
+}
+
+@keyframes scaleImage {
+    
+    0%{
+        filter: grayscale(0);
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.1);
+        filter: grayscale(1);
+        box-shadow: 3px 3px 10px black;
+    }
+
+    100%{
+        transform: scale(1);
+        filter: grayscale(0);
+    }
+}
