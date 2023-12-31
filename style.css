@@ -328,7 +328,8 @@
     right: 0;
     bottom: 0;
     background-color: #1f1f1f9a;
-    transform: scaleX(1);
+    z-index: 0;
+    /* transform: scaleX(1); */
 }
 
 .project-card::before{
@@ -342,4 +343,8 @@
     transform: scaleX(0);
     transform-origin: left;
     transition: all 0.4s;
+}
+
+.project-card:hover::before{
+    transform: scaleX(1);
 }
