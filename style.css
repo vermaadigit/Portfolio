@@ -439,9 +439,24 @@
     color: var(--bgOrange);
 }
 
-.project-content:hover{
-    transform: scale(1.2);
+.project-card:hover .project-content{
+    transform: scale(1.1);
 }
 
+#project1{
+    background-image: url(images/projects/Project1.png);
+}
+
+#project2{
+    background-image: url(images/projects/Project2.png);
+}
+
+#project3{
+    background-image: url(images/projects/Project3.png);
+}
+
+#project4{
+    background-image: url(images/projects/Project4.png);
+}
 
 
