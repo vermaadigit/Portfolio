@@ -343,8 +343,16 @@
     transform: scaleX(0);
     transform-origin: left;
     transition: all 0.4s;
+    z-index: 1;
 }
 
 .project-card:hover::before{
     transform: scaleX(1);
+}
+.project-number{
+    position: absolute;
+    font-size: 200px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    z-index: 10;
 }
