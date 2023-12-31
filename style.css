@@ -355,6 +355,14 @@
     font-weight: 600;
     color: rgb(255, 255, 255);
     z-index: 10;
+    /* display: none; */
+    transition: all 0.4s;
+    opacity: 0;
+}
+
+.project-card:hover .project-number{
+    /* display: block; */
+    opacity: 1;
 }
 
 .project-number-right{
@@ -431,6 +439,9 @@
     color: var(--bgOrange);
 }
 
+.project-content:hover{
+    transform: scale(1.2);
+}
 
 
 
