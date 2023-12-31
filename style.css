@@ -338,5 +338,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    
+    background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.4s;
 }
