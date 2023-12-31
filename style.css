@@ -403,3 +403,15 @@
     font-weight: bold;
     line-height: 3rem;
 }
+
+.project-sub-heading{
+    width: 70%;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.btn-grp{
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+}
