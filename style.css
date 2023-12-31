@@ -356,3 +356,13 @@
     color: rgb(255, 255, 255);
     z-index: 10;
 }
+
+.project-number-right{
+    right: -40px;
+    top: -45px;
+}
+
+.project-number-left{
+    left: -40px;
+    top: -45px;
+}
