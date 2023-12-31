@@ -313,7 +313,7 @@
 .project-card{
     width: 90%;
     height: 550px;
-    background-image: url(images/projects/Project2.png);
+    background-image: url(images/projects/Project1.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -365,4 +365,41 @@
 .project-number-left{
     left: -40px;
     top: -45px;
+}
+
+.project-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 2em;
+    bottom: 20%;
+    z-index: 5;
+    gap: 1em;
+    transition: all 0.4s;
+}
+
+.project-content-left{
+    left: 10%;
+}
+
+.project-content-right{
+    right: 10%;
+}
+
+.project-skills-container{
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.project-skill{
+    width: 40px;
+}
+
+.project-heading{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 3rem;
 }
