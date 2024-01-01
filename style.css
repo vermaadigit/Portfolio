@@ -570,6 +570,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    z-index: -5;
     transform: translate(-50%, -50%);
     animation: blobAnimate 3s linear infinite;
 }
@@ -577,10 +578,21 @@
 @keyframes blobAnimate{
     50%{
         top: 54%;
-        left: 56%;
+        left: 46%;
     }
 }
 
+.skills-logo{
+    width: 90px;
+    transition: all 0.5s;
+}
 
+.skills-logo:hover{
+    transform: scale(1.2);
+}
+
+.skill-heading{
+    
+}
 
 
