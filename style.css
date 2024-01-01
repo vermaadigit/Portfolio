@@ -592,7 +592,24 @@
 }
 
 .skill-heading{
-    
+    font-size: 50px;
+    font-style: bold;
+    color: var(--bgOrange);
+    line-height: 50px;
+}
+
+.caps{
+    font-size: 90px;
+}
+
+.skill-subHeading{
+    margin-top: 1rem;
+    width: 85%;
+    text-align: justify;
+}
+
+.skill-subHeading p{
+    margin: 15px 0;
 }
 
 
