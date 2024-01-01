@@ -3,7 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     font-family: 'Be Vietnam Pro', sans-serif;
     scroll-behavior: smooth;
 }
@@ -561,7 +561,7 @@
     font-style: bold;
     color: rgb(231, 231, 231);
     bottom: -34.5%;
-    right: -25%;
+    right: -35%;
     user-select: none;
     overflow-y: hidden;
 }
