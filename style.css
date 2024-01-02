@@ -617,4 +617,20 @@
     background-color: rgb(231, 231, 231);
 }
 
+.contactus-heading{
+    font-size: 5em;
+    color: var(--bgOrange);
+    padding-top: 2rem;
+}
+
+.contactus-sub-heading{
+    font-size: 3rem;
+    color: #343d68aa;
+    text-transform: capitalize;
+}
+
+.contactus-form-container{
+    
+}
+
 
