@@ -720,3 +720,14 @@ footer{
     text-decoration: none;
 }
 
+.icon-wrapper{
+    display: flex;
+    gap: 2rem;
+}
+
+.icon-wrapper i{
+    color: #fff;
+    scale: 2;
+    cursor: pointer;
+}
+
